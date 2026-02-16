@@ -1,0 +1,5 @@
+{
+    "source": "https://api.slingacademy.com/v1/sample-data/files/customers.json",
+    "bucket": "ganesh-data-buckets3",
+    "destination_key": "processed/customers_final.csv"
+}
