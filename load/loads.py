@@ -2,7 +2,7 @@ import json
 import csv
 import boto3
 from io import StringIO
-from logs import logs
+from logs.logs import logger as logs
 
 def load_data(data):
     # Load config

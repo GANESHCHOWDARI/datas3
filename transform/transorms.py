@@ -1,5 +1,5 @@
 import datetime,time
-from logs import logs
+from logs.logs import logger as logs
 import pandas as pd
 def transform_data(data):
         df=pd.read_csv(data)

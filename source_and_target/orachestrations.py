@@ -5,10 +5,10 @@ import json
 # ensure project root on sys.path so top-level modules can be imported
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-import extraction
-import transorms as transforms
-import loads as loadings
-from logs import logs
+from extraction import extraction
+from transform import transorms as transforms
+from load import loads as loadings
+from logs.logs import logger as logs
 
 def main():
     with open('./source_and_target/config.json') as config_file:

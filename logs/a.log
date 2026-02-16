@@ -1,0 +1,199 @@
+2026-02-17 02:57:27,760 - DEBUG - Starting new HTTPS connection (1): api.slingacademy.com:443
+2026-02-17 02:57:28,134 - DEBUG - https://api.slingacademy.com:443 "GET /v1/sample-data/files/customers.json HTTP/1.1" 200 None
+2026-02-17 02:57:31,272 - INFO - Data fetched successfully
+2026-02-17 02:57:31,272 - INFO - Data fetched successfully
+2026-02-17 02:57:31,281 - INFO - Data written to customers.csv successfully
+2026-02-17 02:57:31,283 - INFO - Data extraction completed successfully
+2026-02-17 02:57:31,283 - INFO - Data 15 records extracted
+2026-02-17 02:57:31,344 - INFO - Data transformed successfully
+2026-02-17 02:57:31,352 - INFO - Transformed data written to customers_transformed.csv successfully
+2026-02-17 02:57:31,353 - DEBUG - Data transformation completed successfully
+2026-02-17 02:57:31,353 - INFO - Data transformed with 27 records
+2026-02-17 02:57:31,353 - DEBUG - Row: .
+2026-02-17 02:57:31,353 - DEBUG - Row: /
+2026-02-17 02:57:31,353 - DEBUG - Row: c
+2026-02-17 02:57:31,353 - DEBUG - Row: u
+2026-02-17 02:57:31,353 - DEBUG - Row: s
+2026-02-17 02:57:31,353 - DEBUG - Row: t
+2026-02-17 02:57:31,353 - DEBUG - Row: o
+2026-02-17 02:57:31,353 - DEBUG - Row: m
+2026-02-17 02:57:31,353 - DEBUG - Row: e
+2026-02-17 02:57:31,353 - DEBUG - Row: r
+2026-02-17 02:57:31,353 - DEBUG - Row: s
+2026-02-17 02:57:31,353 - DEBUG - Row: _
+2026-02-17 02:57:31,353 - DEBUG - Row: t
+2026-02-17 02:57:31,354 - DEBUG - Row: r
+2026-02-17 02:57:31,354 - DEBUG - Row: a
+2026-02-17 02:57:31,354 - DEBUG - Row: n
+2026-02-17 02:57:31,354 - DEBUG - Row: s
+2026-02-17 02:57:31,354 - DEBUG - Row: f
+2026-02-17 02:57:31,354 - DEBUG - Row: o
+2026-02-17 02:57:31,354 - DEBUG - Row: r
+2026-02-17 02:57:31,354 - DEBUG - Row: m
+2026-02-17 02:57:31,354 - DEBUG - Row: e
+2026-02-17 02:57:31,354 - DEBUG - Row: d
+2026-02-17 02:57:31,354 - DEBUG - Row: .
+2026-02-17 02:57:31,354 - DEBUG - Row: c
+2026-02-17 02:57:31,354 - DEBUG - Row: s
+2026-02-17 02:57:31,354 - DEBUG - Row: v
+2026-02-17 02:57:31,355 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2026-02-17 02:57:31,357 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2026-02-17 02:57:31,357 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2026-02-17 02:57:31,358 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2026-02-17 02:57:31,358 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2026-02-17 02:57:31,359 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2026-02-17 02:57:31,359 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2026-02-17 02:57:31,361 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2026-02-17 02:57:31,361 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2026-02-17 02:57:31,362 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2026-02-17 02:57:31,362 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2026-02-17 02:57:31,423 - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2026-02-17 02:57:31,425 - DEBUG - Looking for credentials via: env
+2026-02-17 02:57:31,425 - DEBUG - Looking for credentials via: assume-role
+2026-02-17 02:57:31,425 - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2026-02-17 02:57:31,425 - DEBUG - Looking for credentials via: sso
+2026-02-17 02:57:31,425 - DEBUG - Looking for credentials via: shared-credentials-file
+2026-02-17 02:57:31,426 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-02-17 02:57:31,433 - DEBUG - Loading JSON file: C:\Python312\Lib\site-packages\botocore\data\endpoints.json
+2026-02-17 02:57:31,470 - DEBUG - Loading JSON file: C:\Python312\Lib\site-packages\botocore\data\sdk-default-configuration.json
+2026-02-17 02:57:31,471 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000002C3B3800360>
+2026-02-17 02:57:32,062 - DEBUG - Loading JSON file: C:\Python312\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+2026-02-17 02:57:32,076 - DEBUG - Loading JSON file: C:\Python312\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.sdk-extras.json
+2026-02-17 02:57:32,262 - DEBUG - Loading JSON file: C:\Python312\Lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2026-02-17 02:57:32,267 - DEBUG - Loading JSON file: C:\Python312\Lib\site-packages\botocore\data\partitions.json
+2026-02-17 02:57:32,270 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000002C3B37665C0>
+2026-02-17 02:57:32,270 - DEBUG - Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000002C3B3897BA0>
+2026-02-17 02:57:32,279 - DEBUG - Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000002C3B3766340>
+2026-02-17 02:57:32,279 - DEBUG - Looking for endpoint for s3 via: environment_service
+2026-02-17 02:57:32,279 - DEBUG - Looking for endpoint for s3 via: environment_global
+2026-02-17 02:57:32,279 - DEBUG - Looking for endpoint for s3 via: config_service
+2026-02-17 02:57:32,279 - DEBUG - Looking for endpoint for s3 via: config_global
+2026-02-17 02:57:32,279 - DEBUG - No configured endpoint found.
+2026-02-17 02:57:32,281 - DEBUG - Setting s3 timeout as (60, 60)
+2026-02-17 02:57:32,300 - DEBUG - Loading JSON file: C:\Python312\Lib\site-packages\botocore\data\_retry.json
+2026-02-17 02:57:32,300 - DEBUG - Registering retry handlers for service: s3
+2026-02-17 02:57:32,301 - DEBUG - Registering S3 region redirector handler
+2026-02-17 02:57:32,301 - DEBUG - Registering S3Express Identity Resolver
+2026-02-17 02:57:32,302 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x000002C3B3802E80>
+2026-02-17 02:57:32,302 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x000002C3B3802160>
+2026-02-17 02:57:32,302 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x000002C3B3803880>
+2026-02-17 02:57:32,302 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x000002C3B38020C0>
+2026-02-17 02:57:32,302 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000002C3B3820400>
+2026-02-17 02:57:32,302 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000002C3B44CD310>>
+2026-02-17 02:57:32,302 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x000002C3B399C920>>
+2026-02-17 02:57:32,302 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x000002C3B3801EE0>
+2026-02-17 02:57:32,302 - DEBUG - Event before-parameter-build.s3.PutObject: calling handler <function _handle_request_validation_mode_member at 0x000002C3B3820AE0>
+2026-02-17 02:57:32,302 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002C3B38205E0>
+2026-02-17 02:57:32,302 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002C3B44CD310>>
+2026-02-17 02:57:32,303 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'ganesh-data-buckets3', 'Region': 'ap-south-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'processed/customers_final1.csv', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2026-02-17 02:57:32,303 - DEBUG - Endpoint provider result: https://ganesh-data-buckets3.s3.ap-south-1.amazonaws.com
+2026-02-17 02:57:32,303 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2026-02-17 02:57:32,303 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2026-02-17 02:57:32,304 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x000002C3B3802480>
+2026-02-17 02:57:32,304 - DEBUG - Adding expect 100 continue header to request.
+2026-02-17 02:57:32,304 - DEBUG - Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x000002C3B35ADA00>>
+2026-02-17 02:57:32,304 - DEBUG - Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x000002C3B3800D60>
+2026-02-17 02:57:32,304 - DEBUG - Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x000002C3B38039C0>
+2026-02-17 02:57:32,304 - DEBUG - Making request for OperationModel(name=PutObject) with params: {'url_path': '/processed/customers_final1.csv', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.42.49 md/Botocore#1.42.49 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.12.6 md/pyimpl#CPython m/D,n,b,Z cfg/retry-mode#legacy Botocore/1.42.49', 'Expect': '100-continue', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'aws-chunked', 'X-Amz-Trailer': 'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': '81', 'x-amz-sdk-checksum-algorithm': 'CRC32'}, 'body': <botocore.httpchecksum.AwsChunkedWrapper object at 0x000002C3B44FA780>, 'auth_path': '/ganesh-data-buckets3/processed/customers_final1.csv', 'url': 'https://ganesh-data-buckets3.s3.ap-south-1.amazonaws.com/processed/customers_final1.csv', 'context': {'client_region': 'ap-south-1', 'client_config': <botocore.config.Config object at 0x000002C3B44AB920>, 'has_streaming_input': True, 'auth_type': 'v4', 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4'], 's3_redirect': {'redirected': False, 'bucket': 'ganesh-data-buckets3', 'params': {'Bucket': 'ganesh-data-buckets3', 'Key': 'processed/customers_final1.csv', 'Body': <_io.BytesIO object at 0x000002C3B44C2750>}}, 'input_params': {'Bucket': 'ganesh-data-buckets3', 'Key': 'processed/customers_final1.csv'}, 'signing': {'region': 'ap-south-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'ap-south-1'}]}, 'checksum': {'request_algorithm_header': {'name': 'x-amz-sdk-checksum-algorithm', 'value': 'CRC32'}, 'request_algorithm': {'algorithm': 'crc32', 'in': 'trailer', 'name': 'x-amz-checksum-crc32'}}}}
+2026-02-17 02:57:32,304 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002C3B2CC0980>>
+2026-02-17 02:57:32,304 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x000002C3B3801C60>
+2026-02-17 02:57:32,305 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x000002C3B3820540>
+2026-02-17 02:57:32,305 - DEBUG - Event before-sign.s3.PutObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002C3B3820B80>
+2026-02-17 02:57:32,305 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002C3B35ADA00>>
+2026-02-17 02:57:32,305 - DEBUG - Calculating signature using v4 auth.
+2026-02-17 02:57:32,305 - DEBUG - CanonicalRequest:
+PUT
+/processed/customers_final1.csv
+
+content-encoding:aws-chunked
+host:ganesh-data-buckets3.s3.ap-south-1.amazonaws.com
+x-amz-content-sha256:STREAMING-UNSIGNED-PAYLOAD-TRAILER
+x-amz-date:20260216T212732Z
+x-amz-decoded-content-length:81
+x-amz-sdk-checksum-algorithm:CRC32
+x-amz-trailer:x-amz-checksum-crc32
+
+content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer
+STREAMING-UNSIGNED-PAYLOAD-TRAILER
+2026-02-17 02:57:32,305 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260216T212732Z
+20260216/ap-south-1/s3/aws4_request
+2285f8ee80e8323856091810b76dd5cf7e1f21f84c38073a20651ecd018f8d02
+2026-02-17 02:57:32,305 - DEBUG - Signature:
+0dcf797a916f035dce75310dd3e68a9f640359e10bd8b1ece8c826723afbe90e
+2026-02-17 02:57:32,306 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002C3B44F90D0>>
+2026-02-17 02:57:32,306 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x000002C3B3820360>
+2026-02-17 02:57:32,306 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://ganesh-data-buckets3.s3.ap-south-1.amazonaws.com/processed/customers_final1.csv, headers={'User-Agent': b'Boto3/1.42.49 md/Botocore#1.42.49 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.12.6 md/pyimpl#CPython m/D,n,b,U,Z cfg/retry-mode#legacy Botocore/1.42.49', 'Expect': b'100-continue', 'Transfer-Encoding': b'chunked', 'Content-Encoding': b'aws-chunked', 'X-Amz-Trailer': b'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': b'81', 'x-amz-sdk-checksum-algorithm': b'CRC32', 'X-Amz-Date': b'20260216T212732Z', 'X-Amz-Content-SHA256': b'STREAMING-UNSIGNED-PAYLOAD-TRAILER', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIA5C2QMKKMY4UA6GFR/20260216/ap-south-1/s3/aws4_request, SignedHeaders=content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer, Signature=0dcf797a916f035dce75310dd3e68a9f640359e10bd8b1ece8c826723afbe90e', 'amz-sdk-invocation-id': b'e35c4e69-8ae1-4ac0-99ae-e2c689ccecfe', 'amz-sdk-request': b'attempt=1'}>
+2026-02-17 02:57:32,306 - DEBUG - Certificate path: C:\Python312\Lib\site-packages\certifi\cacert.pem
+2026-02-17 02:57:32,307 - DEBUG - Starting new HTTPS connection (1): ganesh-data-buckets3.s3.ap-south-1.amazonaws.com:443
+2026-02-17 02:57:32,966 - DEBUG - Waiting for 100 Continue response.
+2026-02-17 02:57:33,019 - DEBUG - Received a non 100 Continue response from the server, NOT sending request body.
+2026-02-17 02:57:33,020 - DEBUG - send() called, but response already received. Not sending data.
+2026-02-17 02:57:33,020 - DEBUG - https://ganesh-data-buckets3.s3.ap-south-1.amazonaws.com:443 "PUT /processed/customers_final1.csv HTTP/1.1" 400 None
+2026-02-17 02:57:33,021 - DEBUG - Event before-parse.s3.PutObject: calling handler <function _handle_200_error at 0x000002C3B3820900>
+2026-02-17 02:57:33,021 - DEBUG - Event before-parse.s3.PutObject: calling handler <function handle_expires_header at 0x000002C3B3820720>
+2026-02-17 02:57:33,021 - DEBUG - Response headers: {'x-amz-bucket-region': 'ap-south-2', 'Server': 'AmazonS3', 'x-amz-request-id': 'XQAAW0KX1KTE9FKP', 'x-amz-id-2': 'hqPDXVKqrG/das18nWTfjggp/pZhFl/hs33sDVgQN/UYhJJZTh5agIDH0DnQ2TCzvFL9IX7IvUYVVxNXQ98g3Wu01l+1AjN+', 'Content-Type': 'application/xml', 'Transfer-Encoding': 'chunked', 'Date': 'Mon, 16 Feb 2026 21:27:32 GMT', 'Connection': 'close'}
+2026-02-17 02:57:33,021 - DEBUG - Response body:
+b'<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>IllegalLocationConstraintException</Code><Message>The ap-south-2 location constraint is incompatible for the region specific endpoint this request was sent to.</Message><RequestId>XQAAW0KX1KTE9FKP</RequestId><HostId>hqPDXVKqrG/das18nWTfjggp/pZhFl/hs33sDVgQN/UYhJJZTh5agIDH0DnQ2TCzvFL9IX7IvUYVVxNXQ98g3Wu01l+1AjN+</HostId></Error>'
+2026-02-17 02:57:33,024 - DEBUG - Event needs-retry.s3.PutObject: calling handler <function _update_status_code at 0x000002C3B3820A40>
+2026-02-17 02:57:33,024 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000002C3B15348F0>
+2026-02-17 02:57:33,024 - DEBUG - No retry needed.
+2026-02-17 02:57:33,025 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002C3B44CD310>>
+2026-02-17 02:57:33,025 - DEBUG - S3 client configured for region ap-south-1 but the bucket ganesh-data-buckets3 is in region ap-south-2; Please configure the proper region to avoid multiple unnecessary redirects and signing attempts.
+2026-02-17 02:57:33,025 - DEBUG - Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000002C3B38205E0>
+2026-02-17 02:57:33,025 - DEBUG - Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000002C3B44CD310>>
+2026-02-17 02:57:33,025 - DEBUG - Calling endpoint provider with parameters: {'Bucket': 'ganesh-data-buckets3', 'Region': 'ap-south-2', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'processed/customers_final1.csv', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2026-02-17 02:57:33,025 - DEBUG - Endpoint provider result: https://ganesh-data-buckets3.s3.ap-south-2.amazonaws.com
+2026-02-17 02:57:33,025 - DEBUG - Updating URI from https://ganesh-data-buckets3.s3.ap-south-1.amazonaws.com/processed/customers_final1.csv to https://ganesh-data-buckets3.s3.ap-south-2.amazonaws.com/processed/customers_final1.csv
+2026-02-17 02:57:33,025 - DEBUG - Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2026-02-17 02:57:33,025 - DEBUG - Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-south-2', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2026-02-17 02:57:33,025 - DEBUG - Response received to retry, sleeping for 0 seconds
+2026-02-17 02:57:33,026 - DEBUG - Rewinding stream: <botocore.httpchecksum.AwsChunkedWrapper object at 0x000002C3B44FA780>
+2026-02-17 02:57:33,026 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000002C3B2CC0980>>
+2026-02-17 02:57:33,026 - DEBUG - Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x000002C3B3801C60>
+2026-02-17 02:57:33,026 - DEBUG - Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x000002C3B3820540>
+2026-02-17 02:57:33,027 - DEBUG - Event before-sign.s3.PutObject: calling handler <function _set_extra_headers_for_unsigned_request at 0x000002C3B3820B80>
+2026-02-17 02:57:33,027 - DEBUG - Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x000002C3B35ADA00>>
+2026-02-17 02:57:33,027 - DEBUG - Calculating signature using v4 auth.
+2026-02-17 02:57:33,027 - DEBUG - CanonicalRequest:
+PUT
+/processed/customers_final1.csv
+
+content-encoding:aws-chunked
+host:ganesh-data-buckets3.s3.ap-south-2.amazonaws.com
+x-amz-content-sha256:STREAMING-UNSIGNED-PAYLOAD-TRAILER
+x-amz-date:20260216T212733Z
+x-amz-decoded-content-length:81
+x-amz-sdk-checksum-algorithm:CRC32
+x-amz-trailer:x-amz-checksum-crc32
+
+content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer
+STREAMING-UNSIGNED-PAYLOAD-TRAILER
+2026-02-17 02:57:33,027 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260216T212733Z
+20260216/ap-south-2/s3/aws4_request
+94e02f7143cb00be8795c66130d3d216f36c9091de4800297b31082822cfb53a
+2026-02-17 02:57:33,027 - DEBUG - Signature:
+47517cf0ec0dba9c9a1a7c040d59faf87f40b9e4b9567a9e71788f5753978f5a
+2026-02-17 02:57:33,027 - DEBUG - Event request-created.s3.PutObject: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000002C3B44F90D0>>
+2026-02-17 02:57:33,027 - DEBUG - Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x000002C3B3820360>
+2026-02-17 02:57:33,027 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://ganesh-data-buckets3.s3.ap-south-2.amazonaws.com/processed/customers_final1.csv, headers={'User-Agent': b'Boto3/1.42.49 md/Botocore#1.42.49 ua/2.1 os/windows#10 md/arch#amd64 lang/python#3.12.6 md/pyimpl#CPython m/D,n,b,U,Z cfg/retry-mode#legacy Botocore/1.42.49', 'Expect': b'100-continue', 'Transfer-Encoding': b'chunked', 'Content-Encoding': b'aws-chunked', 'X-Amz-Trailer': b'x-amz-checksum-crc32', 'X-Amz-Decoded-Content-Length': b'81', 'x-amz-sdk-checksum-algorithm': b'CRC32', 'X-Amz-Date': b'20260216T212733Z', 'X-Amz-Content-SHA256': b'STREAMING-UNSIGNED-PAYLOAD-TRAILER', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIA5C2QMKKMY4UA6GFR/20260216/ap-south-2/s3/aws4_request, SignedHeaders=content-encoding;host;x-amz-content-sha256;x-amz-date;x-amz-decoded-content-length;x-amz-sdk-checksum-algorithm;x-amz-trailer, Signature=47517cf0ec0dba9c9a1a7c040d59faf87f40b9e4b9567a9e71788f5753978f5a', 'amz-sdk-invocation-id': b'e35c4e69-8ae1-4ac0-99ae-e2c689ccecfe', 'amz-sdk-request': b'ttl=20260216T212832Z; attempt=2; max=5'}>
+2026-02-17 02:57:33,028 - DEBUG - Certificate path: C:\Python312\Lib\site-packages\certifi\cacert.pem
+2026-02-17 02:57:33,028 - DEBUG - Starting new HTTPS connection (1): ganesh-data-buckets3.s3.ap-south-2.amazonaws.com:443
+2026-02-17 02:57:33,693 - DEBUG - Waiting for 100 Continue response.
+2026-02-17 02:57:33,758 - DEBUG - 100 Continue response seen, now sending request body.
+2026-02-17 02:57:33,812 - DEBUG - https://ganesh-data-buckets3.s3.ap-south-2.amazonaws.com:443 "PUT /processed/customers_final1.csv HTTP/1.1" 200 0
+2026-02-17 02:57:33,812 - DEBUG - Event before-parse.s3.PutObject: calling handler <function _handle_200_error at 0x000002C3B3820900>
+2026-02-17 02:57:33,812 - DEBUG - Event before-parse.s3.PutObject: calling handler <function handle_expires_header at 0x000002C3B3820720>
+2026-02-17 02:57:33,812 - DEBUG - Response headers: {'x-amz-id-2': '2qhVLKwDP0NiP/zDDaWlBMbwV6++MJktPF3pYDd44tBp7vmKFMkdk5QifKcyMrasd3SjT7+2F/hP025u0dCxzXZfZ/FpZ+r+', 'x-amz-request-id': 'XQA5Y8AMH2SFBMKZ', 'Date': 'Mon, 16 Feb 2026 21:27:34 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"9be7996aae8799952152590d89ecb48b"', 'x-amz-checksum-crc32': 'ZWl6+Q==', 'x-amz-checksum-type': 'FULL_OBJECT', 'Content-Length': '0', 'Server': 'AmazonS3'}
+2026-02-17 02:57:33,812 - DEBUG - Response body:
+b''
+2026-02-17 02:57:33,813 - DEBUG - Event needs-retry.s3.PutObject: calling handler <function _update_status_code at 0x000002C3B3820A40>
+2026-02-17 02:57:33,813 - DEBUG - Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000002C3B15348F0>
+2026-02-17 02:57:33,813 - DEBUG - No retry needed.
+2026-02-17 02:57:33,813 - DEBUG - Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000002C3B44CD310>>
+2026-02-17 02:57:33,813 - DEBUG - S3 request was previously redirected, not redirecting.
+2026-02-17 02:57:33,813 - INFO - Data uploaded to s3://ganesh-data-buckets3/processed/customers_final1.csv
+2026-02-17 02:57:33,815 - INFO - Data loading completed successfully
